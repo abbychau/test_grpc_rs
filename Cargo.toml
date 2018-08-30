@@ -1,0 +1,17 @@
+[package]
+name = "test-grpc-rs"
+version = "0.1.0"
+authors = ["abbychau <abbychau@gmail.com>"]
+
+[[bin]]
+name = "client"
+path = "src/client.rs"
+
+[[bin]]
+name = "server"
+path = "src/main.rs"
+
+[dependencies]
+grpcio = "0.3.0"
+protobuf = "2.0.4"
+futures = "0.1.23"
